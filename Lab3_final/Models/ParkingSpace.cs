@@ -6,6 +6,7 @@ namespace Lab3_final.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
         [Display(Name ="Is Parked")]
         public bool IsParked { get; set; }
 

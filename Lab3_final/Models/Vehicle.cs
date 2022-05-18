@@ -1,9 +1,13 @@
-﻿namespace Lab3_final.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Lab3_final.Models
 {
     public class Vehicle
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        [Display(Name = "Is State")]
         public bool IsState { get; set; }
 
         //Many-to-one with Pass,
